@@ -1,0 +1,23 @@
+name = "image-to-3d-api"
+main = "index.js"
+compatibility_date = "2023-09-01"
+
+# Configure environment bindings
+[[r2_buckets]]
+binding = "STORAGE"
+bucket_name = "image-to-3d-storage"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "image-to-3d-db"
+# You'll need to replace this with your actual database ID after creation
+database_id = "<your-database-id>"
+
+# Configure routes if you're using a custom domain
+# [routes]
+# pattern = "api.yourdomain.com/*"
+# zone_id = "<your-zone-id>"
+
+# Add any environment variables if needed
+[vars]
+ENVIRONMENT = "production"
