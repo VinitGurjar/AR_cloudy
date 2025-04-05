@@ -11,7 +11,7 @@ bucket_name = "image-to-3d-storage"
 binding = "DB"
 database_name = "image-to-3d-db"
 # You'll need to replace this with your actual database ID after creation
-database_id = "<your-database-id>"
+database_id = "562e6b7b-6114-454d-aa01-f2eb3fbc7b95"
 
 # Configure routes if you're using a custom domain
 # [routes]
